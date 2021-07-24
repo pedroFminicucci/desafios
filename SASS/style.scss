@@ -15,8 +15,15 @@ body {
     }
 
 }
+$heightMax: 200px;
+
 @import "fondo";
 @import "header";
 @import "mainLogo";
 @import "footer";
 
+div {
+    &#main_fondo {
+        height: ($heightMax) * 2 ;
+    }
+}

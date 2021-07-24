@@ -1,7 +1,6 @@
 #main_fondo {
     background-image: url(../Fondos/male.jpg);
     background-position: center;
-    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;

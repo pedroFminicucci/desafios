@@ -1,0 +1,13 @@
+/* LOGO */
+.main_logo {
+    display: flex;
+    justify-content: center;
+        img {
+            position: relative;
+            bottom: 40px;
+        }
+}
+
+.animate__backInDown {
+    animation-duration: 2s;
+}

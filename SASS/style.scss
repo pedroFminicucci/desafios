@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 100px;
+}
+.logo {
+    img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-right: -50px;
+    margin-top: -10px;
+    }
+
+}
+@import "fondo";
+@import "header";
+@import "mainLogo";
+@import "footer";
+

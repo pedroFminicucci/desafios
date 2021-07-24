@@ -1,0 +1,55 @@
+/* HEADER */
+nav {
+    position: fixed;
+    margin-top: -100px;
+    z-index: 50;
+    width: 100%;
+    height: 100px;
+    background: rgba(158, 158, 158, 0.75);
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    margin: auto;
+    height: 100%;
+
+    li {
+        flex: 10px;
+        text-align: center;
+        padding-top: 25px;
+
+        &:hover {
+            background-color: rgba(100, 100, 100, 0.75);
+            border-bottom: rgb(255, 170, 120) solid;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    line-height: 3;
+    color: seashell;
+}
+
+.dropdown ul {
+    position: absolute;
+    display: none;
+    background: rgb(26, 26, 26);
+    z-index: 99;
+    margin-top: 9%;
+    width: 100%;
+        li {
+            list-style: none;
+        }
+}
+
+
+
+.dropdown {
+    position: relative;
+        &:hover ul{
+            display: block;
+        }
+}
